@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Hello, I'm Somu — a Student</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a dedicated and passionate Computer Science enthusiast with a strong interest in software development, algorithms, and problem-solving. Currently pursuing my studies in Computer Science at KL University, I enjoy exploring emerging technologies and working on innovative projects that push the boundaries of what’s possible. I have experience with various programming languages and frameworks, and I am constantly seeking opportunities to expand my knowledge and improve my skills. My goal is to contribute to cutting-edge solutions and make a meaningful impact in the tech industry.</p>
+                </div>
+                <div class="about-image">
+                    <img src="{% static 'images/profile.jpg' %}" alt="Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fas fa-code"></i> Programming Languages: <i class="fab fa-python"></i> Python, <i class="fab fa-java"></i> Java, <i class="fab fa-code"></i> C</li>
+                <li><i class="fas fa-cubes"></i> Frameworks: <i class="fab fa-python"></i> Django</li>
+                <li><i class="fas fa-laptop-code"></i> Web Technologies: <i class="fab fa-html5"></i> HTML, <i class="fab fa-css3-alt"></i> CSS</li>
+                <li><i class="fas fa-database"></i> Databases: <i class="fas fa-database"></i> MySQL</li>
+                <li><i class="fas fa-code-branch"></i> Version Control: <i class="fab fa-git"></i> Git, <i class="fab fa-github"></i> GitHub</li>
+                <li><i class="fas fa-user-friends"></i> Soft Skills: Problem-solving, Communication, Teamwork</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="projects">
+                <div class="project-box">
+                    <h3>Project 1</h3>
+                    <p>A description of Project 1. <a href="https://yourproject1link.com" target="_blank">See more</a></p>
+                </div>
+                <div class="project-box">
+                    <h3>Project 2</h3>
+                    <p>A description of Project 2. <a href="https://yourproject2link.com" target="_blank">See more</a></p>
+                </div>
+                <div class="project-box">
+                    <h3>Project 3</h3>
+                    <p>A description of Project 3. <a href="https://yourproject3link.com" target="_blank">See more</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Qualifications Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Academic Qualifications</h2>
+            <ul>
+                <li>Bachelor's in Computer Science, [KL University] (2027)</li>
+                <li>Master's in Computer Science, [KL University] (2027)</li>
+                <li>Certifications: Machine Learning, [KL University]</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section id="social">
+        <div class="container">
+            <h2>Social Links</h2>
+            <ul class="social-links">
+                <li><a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Email: 2310080083@klh.edu.in</p>
+            <p>Phone: 1234567890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Somu. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
